@@ -21,3 +21,19 @@ else if (dinero>=11){
 else{
     alert(nombre +"  "+"el dinero no te alcanza para realizar ninguna compra");
 }
+
+//mayor de edad
+
+edad= prompt ("cual es tu edad?")
+
+function mayorDeEdad (edad, mayor){
+    for(let i = 1; i<= edad; i++){
+        if(mayorDeEdad === "mayor" && i >=18 ){
+            console.log ("eres mayor de edad");
+        }
+        else{
+            console.log ("eres menor de edad");
+        }
+        break
+    }
+}
