@@ -37,3 +37,35 @@ function mayorDeEdad (edad, mayor){
         break
     }
 }
+
+
+//ARRAYS 
+
+let productos = [
+    {
+        id:1,
+        producto: "shampoo",
+        precio: 300,
+    },
+    {
+        id:2,
+        producto: "acondicionador",
+        precio: 350,
+    },
+    {
+        id:3,
+        producto: "nutrición",
+        precio: 500,
+    },
+    {
+        id:4,
+        producto: "serum",
+        precio: 550,
+    }
+]
+
+const elegido = productos.find(producto => producto.id ===2)
+console.log(elegido);
+
+const listaDeProductos = productos.map(producto => producto.producto)
+console.log (listaDeProductos);
